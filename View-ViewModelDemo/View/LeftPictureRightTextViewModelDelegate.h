@@ -12,6 +12,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @protocol LeftPictureRightTextViewModelDelegate <NSObject>
 
+//参考链接: https://blog.csdn.net/yuanchunzi/article/details/47104907
 @property (nonatomic, copy) NSString *imageUrl;
 @property (nonatomic, copy) NSString *titleText;
 @property (nonatomic, copy) NSString *desc;
